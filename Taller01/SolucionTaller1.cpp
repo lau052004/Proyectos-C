@@ -74,7 +74,7 @@ float bonificacion(float salario, int cantFunciones, float pSueldo, float pFunci
     return bonificacion;
 }
 
-void reporte(Programmer empleados[cantT], int cantidad)
+void reporte(Programmer empleados[], int cantidad)
 {
     cout << endl << "-------- REPORTE ----------" << endl;
     for (int i = 0; i < cantidad; i++)
