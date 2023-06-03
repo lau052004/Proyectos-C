@@ -2,8 +2,6 @@
 
 using namespace std;
 
-#define cantT 50
-
 struct Programmer
 {
     int cedula;
