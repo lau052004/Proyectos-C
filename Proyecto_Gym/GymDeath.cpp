@@ -71,7 +71,7 @@ int main()
     quiere decir los archivos ya existen */ 
     if(gymdeath_rutinas.tellg()!=-1 && gymdeath_clientes.tellg()!=-1)
     {
-      cout << "leyendo";
+        cout << "leyendo";
         entro = true;
         //para empezar desde cero se cierra y vuelve a abrir
         gymdeath_clientes.close(); 
